@@ -1,0 +1,21 @@
+parameters:
+  database_driver:   pdo_mysql
+  database_host:     localhost
+  database_port:     ~
+  database_name:     symfony
+  database_user:     root
+  database_password: ~
+
+  mailer_transport:  smtp
+  mailer_host:       localhost
+  mailer_user:       ~
+  mailer_password:   ~
+
+  locale:            en
+  secret:            ThisTokenIsNotSoSecretChangeIt
+
+  java:              "/usr/bin/java"
+  yui_compressor_jar:
+
+  node:         "/home/user/bin/node"
+  node_paths:   [ "/home/user/bin/node_modules" ]
